@@ -1,3 +1,8 @@
+@mixin containerStyles($color: red) {
+  box-shadow: 10px 10px 8px 10px $color;
+  background-color: $color;
+}
+
 .members__list {
   padding: 8px;
   background-color: aqua;
@@ -6,6 +11,7 @@
   ul {
     border: 2px solid #8888;
     border-radius: $borderRadius;
+    @include containerStyles($color: indigo);
   }
   li {
     list-style: none;

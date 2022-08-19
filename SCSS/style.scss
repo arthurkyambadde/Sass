@@ -1,3 +1,5 @@
+@use "base";
+
 .heading {
   color: red;
 }
@@ -9,9 +11,9 @@ $borderRadius: 8px;
   color: $primaryColor;
 }
 
-// .module__heading {
-//   color: base.$color;
-// }
+.heading_3 {
+  color: base.$color;
+}
 
 @import "./base";
 @import "./base/membersList";

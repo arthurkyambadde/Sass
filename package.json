@@ -1,0 +1,22 @@
+{
+  "name": "saas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthurkyambadde/Sass.git"
+  },
+  "author": "arthur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arthurkyambadde/Sass/issues"
+  },
+  "homepage": "https://github.com/arthurkyambadde/Sass#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  }
+}
