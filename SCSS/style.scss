@@ -1,0 +1,17 @@
+.heading {
+  color: red;
+}
+
+$primaryColor: green;
+$borderRadius: 8px;
+
+.primary_heading {
+  color: $primaryColor;
+}
+
+// .module__heading {
+//   color: base.$color;
+// }
+
+@import "./base";
+@import "./base/membersList";
